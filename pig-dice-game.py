@@ -9,7 +9,7 @@ class PigGame:
         self.root.title("Pig Dice Game 🎲")
 
         # Game settings
-        self.target_score = 100   # Will change based on level
+        self.target_score = 25   # Will change based on level
         self.timer_seconds = 15   # Time limit per turn
         self.time_left = self.timer_seconds
 
